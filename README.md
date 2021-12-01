@@ -5,7 +5,7 @@
 Original repository: https://github.com/trexminer/T-Rex
 I remove some strings in Dockerfile, add docker-compose and update to latest version
 
-##Install docker-compose
+## Install docker-compose
 You can skip this if docker-compose already installed on your machine.
 If not:
 1. [Install latest docker](https://docs.docker.com/engine/install/ "Install docker-compose")
@@ -13,7 +13,7 @@ If not:
 
 
 
-##Prepare
+## Prepare
 1. Clone this repo:
 `git clone https://github.com/gleamingbamboo/docker-trexminer.git && cd docker-trexminer`
 2. Edit config:
@@ -38,11 +38,6 @@ If something wont work you can run container without `-t`:
 ## Get pre built image (in progress...)
 https://hub.docker.com/r/gleamingbamboo/t-rex
 
-##TODO:
-```
-Create branch version
-Deploy container and push it to docker hub
-```
 
 ## Buy me a Coffe
 ETH: 0xa4268fabd1f3d947a3f783925ec93b2aef0e52d4
